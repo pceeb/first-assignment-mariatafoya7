@@ -8,21 +8,21 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]* : Lists information from files in directory in alphabetical order.
-2. cp *.sh /tmp : Copy ".sh" files (including hidden ones) to another directory. 
-3. man pwd : Manual page of all available sections in current directory.
-4. cd ~ : Change directory to home directory.
-5. mkdir -p /test1/test2/test3 : Create the directory test1, test2 and test3 if they dont already exist.
-6. cp -r /tmp . : Copy directory recursively into another directory.
-7. ls | less : List the files in the directory and print the files on the screen. 
-8. head -n 24 test.txt » abc.txt : Print first 24 lines of the "test" file and append to "abc" file. 
-9. echo "aaa" > aaa.txt : Print the string to standard output and redirect to "aaa" file. 
-10. ps -u sallesina : Report a snapshot of the userlist sallesina. 
-11. top : Display linux tasks. 
-12. ls | grep .sh | xargs mv /tmp : List files and select those with ".sh"; execute the files and move them to another directory. 
-13. du -sk /home/* | sort -r -n | head -10 : Estimate file space usage displaying only a block size total for each argument then sort the first ten lines of text files 
-reversing the result of comparison to comparison according to string numerical value. 
-14. sort -r names.txt : Reverse the result of comparison of the "names" file. 
+1. ls [A-Z]* : Lists information from files in directory in alphabetical order. # Actually list files with uppercase
+2. cp *.sh /tmp : Copy ".sh" files (including hidden ones) to another directory. # Correct! But what directory?
+3. man pwd : Manual page of all available sections in current directory. # Incorrect! manual of `pwd` command
+4. cd ~ : Change directory to home directory. # Correct!
+5. mkdir -p /test1/test2/test3 : Create the directory test1, test2 and test3 if they dont already exist. # Correct! You could specify what -p is doing
+6. cp -r /tmp . : Copy directory recursively into another directory. # Correct! What directory
+7. ls | less : List the files in the directory and print the files on the screen. # Correct! In less format
+8. head -n 24 test.txt » abc.txt : Print first 24 lines of the "test" file and append to "abc" file. # Correct!
+9. echo "aaa" > aaa.txt : Print the string to standard output and redirect to "aaa" file. # Correct!
+10. ps -u sallesina : Report a snapshot of the userlist sallesina.  # Correct! Try this with your username in hoffman
+11. top : Display linux tasks.  # Correct! Again try this in hoffman
+12. ls | grep .sh | xargs mv /tmp : List files and select those with ".sh"; execute the files and move them to another directory. #  Correct!
+13. du -sk /home/* | sort -r -n | head -10 : Estimate file space usage displaying only a block size total for each argument then sort the first ten lines of text files
+reversing the result of comparison to comparison according to string numerical value. # Correct! 
+14. sort -r names.txt : Reverse the result of comparison of the "names" file. # Correct!
 
 **IMPORTANT** 
 To submit your answers you must do the following:
